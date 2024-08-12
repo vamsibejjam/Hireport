@@ -2,7 +2,7 @@
 import React, {  useEffect, useState } from 'react';
 import './CompanyCarousel.css';
 import { Link } from 'react-router-dom';
-import data from '../data.json';
+
 
 
 const chunkArray = (array, chunkSize) => {

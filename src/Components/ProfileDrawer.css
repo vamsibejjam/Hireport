@@ -2,7 +2,15 @@
   width: 400px;
 }
 
-.profile-avatar {
+
+
+@media (max-width: 600px) {
+  .profile-drawer {
+    width: 100%;
+  }
+}
+
+.p.profile-avatar {
   width: 90px !important;
   height: 90px !important;
   margin: 20px 20px;
@@ -10,18 +18,37 @@
 
 .list-item-text-primary {
   font-weight: bold;
-
+ 
+  overflow-wrap: break-word;
 }
 
 .list-item-text-secondary {
   font-size: 0.8rem;
   color: #777;
+  overflow-wrap: break-word;
 }
-
 
 .centered-list-item-text {
   text-align: center;
   color: #007bff;
   font-size: 18px;
+}
 
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.drawer-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.close-icon {
+  cursor: pointer;
+  color: #555;
 }
