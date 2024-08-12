@@ -1,0 +1,171 @@
+.companiesContainer {
+    padding: 20px;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.companiesList {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.companySection {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filters>h5 {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    color: #555;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.industry,
+.department,
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.departCheck,
+.indusCheck,
+.locCheck {
+    display: flex;
+    gap: 10px;
+}
+
+.industry p,
+.departments p,
+.locations p {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.showMoreLink {
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.companies {
+    flex: 3;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.col {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.col h6 {
+    font-size: 1.1em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.col p {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.col small {
+    color: #888;
+}
+
+.col:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tuning {
+    position: fixed;
+    top: 150px;
+    left: 18px;
+   
+}
+
+@media(max-width:767px) {
+    .tuning {
+        position: fixed;
+        top: 37vh;
+        left: 15px;
+    }
+
+    .companiesList {
+        position: sticky;
+        top: 110px;
+        z-index: 100;
+    }
+
+    .filters {
+        display: block;
+        position: absolute;
+    }
+}
+
+@media(max-width:400px) {
+    .companiesList {
+        position: sticky;
+        top: 110px;
+        z-index: 100;
+    }
+
+    
+}

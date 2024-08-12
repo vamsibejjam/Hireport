@@ -1,0 +1,326 @@
+.home {
+    width: 100%;
+    
+    display: flex;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 20px;
+    background-color: #f7f9fc;
+}
+
+.homeone,
+.hometwo,
+.homethree {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.homeone {
+    flex: 1;
+    height: max-content;
+    position: sticky;
+    top: 110px;
+}
+
+.hometwo {
+    flex: 3;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.homethree {
+    flex: 1;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    bottom: 0;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.profileName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.profileDesignation {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.updateTime {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.profileButton {
+    background-color: #004cff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.profileButton:hover {
+    background-color: #053567;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: lightslategray;
+}
+
+.profileInfo:hover {
+    color: #004cff;
+}
+
+.profileInfo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.profileInfo small {
+    font-size: 0.875em;
+    white-space: nowrap;
+}
+
+.hometwo h6,
+.homethree h6 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.carouselSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.carouselSection:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sectionTitle {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 10px;
+}
+
+.sectionTitle::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 2px;
+}
+
+.statusInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.statusInfo:hover {
+    transform: translateY(5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.doneIcon {
+    margin-left: 0;
+    color: #12db12;
+}
+
+.statusInfo small {
+    flex: 1;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.statusInfo small span {
+    margin-left: 5px;
+}
+
+.applicationStatus,
+.articlesAndBlogs,
+.industryNews {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+
+
+
+.applicationStatus p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.appliedCompany {
+    color: #004cff;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+
+.articleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.articleSection:hover {
+    transform: translateY(5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.articleTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 10px;
+}
+
+.articleList {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.articleListItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.articleListItem:hover {
+    background-color: #f9f9f9;
+}
+
+.articleLink {
+    text-decoration: none;
+    color: #004cff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.articleDescription {
+    font-size: 14px;
+    color: #666;
+}
+
+.newsSection {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.newsSection:hover {
+    transform: translateY(5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.sectionTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    padding-bottom: 10px;
+}
+
+.newsContent {
+    font-size: 14px;
+    color: #b30000;
+    line-height: 1.6;
+}
+
+.newsImage {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:769px){
+
+    .homeone,.homethree{
+        display: none;
+    }
+}

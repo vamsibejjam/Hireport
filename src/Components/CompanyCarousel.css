@@ -1,0 +1,92 @@
+.companyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+.companyContainer a {
+    text-decoration: none;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100%;
+}
+
+.company {
+    background: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.company h6 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.company small {
+    color: #777;
+}
+
+.company:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.prevbtn,
+.nextbtn {
+    background: none;
+    border: none;
+    font-size: 2em;
+    padding: 0 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #007bff;
+}
+
+.prevbtn {
+    left: 0;
+}
+
+.nextbtn {
+    right: 0;
+}
+
+.prevbtn:hover,
+.nextbtn:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .company {
+        width: 120px;
+        padding: 10px;
+    }
+
+    .prevbtn,
+    .nextbtn {
+        font-size: 1.5em;
+    }
+}

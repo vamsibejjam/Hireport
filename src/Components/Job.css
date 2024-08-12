@@ -1,0 +1,190 @@
+/* General Container Styles */
+.job-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+/* Job Details Container */
+.job-details-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.job-details-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Job Title */
+.job-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+/* Job Information */
+.job-company,
+.job-employment-type,
+.job-location,
+.job-remote,
+.job-date-posted {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.job-company strong,
+.job-employment-type strong,
+.job-location strong,
+.job-remote strong,
+.job-date-posted strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Job Description */
+.job-description {
+  margin-top: 20px;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* Job Description Subheadings and Content */
+.job-description h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}
+
+.job-description p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.job-description ul {
+  padding-left: 20px;
+}
+
+.job-description li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Apply Button */
+.apply-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+
+/* Submission Confirmation */
+.submission-confirmation {
+  text-align: center;
+  color: green;
+}
+
+.submission-confirmation h1 {
+  font-size: 24px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .job-details-container {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .job-title {
+    font-size: 22px;
+  }
+
+  .job-company,
+  .job-employment-type,
+  .job-location,
+  .job-remote,
+  .job-date-posted {
+    font-size: 14px;
+  }
+
+  .job-description {
+    margin-top: 15px;
+  }
+
+  .job-description h3 {
+    font-size: 18px;
+  }
+
+  .job-description p,
+  .job-description li {
+    font-size: 14px;
+  }
+
+  .apply-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .job-details-container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .job-title {
+    font-size: 20px;
+  }
+
+  .job-company,
+  .job-employment-type,
+  .job-location,
+  .job-remote,
+  .job-date-posted {
+    font-size: 12px;
+  }
+
+  .job-description {
+    margin-top: 10px;
+  }
+
+  .job-description h3 {
+    font-size: 16px;
+  }
+
+  .job-description p,
+  .job-description li {
+    font-size: 12px;
+  }
+
+  .apply-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

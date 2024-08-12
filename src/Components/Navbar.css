@@ -1,0 +1,165 @@
+.navbar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  height: 100px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo img {
+  height: 90px;
+  width: auto;
+  cursor: pointer;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex: 5;
+}
+
+.searchInp {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.SearchIcon {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0 4px 4px 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+h6 {
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.notifications {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+  color: red;
+}
+
+
+.profileAccount {
+
+  object-fit: contain;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.menubar {
+  display: none;
+  margin-left: 10px;
+}
+
+.mobile-links {
+  display: none;
+}
+
+@media (max-width: 769px) {
+
+
+  .menubar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .mobile-links {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .mobile-links a {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .mobile-links a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .companyLink,
+  .profileLink,
+  .jobLink,
+  .notifications {
+    display: none;
+  }
+
+  .mobile-links.show {
+    display: flex;
+  }
+}

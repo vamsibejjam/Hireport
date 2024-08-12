@@ -1,0 +1,133 @@
+{
+    
+    "companiesDomains":[
+        { "companyType": "MNCs", "totalCompanyType": "1900" },
+        { "companyType": "Edtech", "totalCompanyType": "158" },
+        { "companyType": "Healthcare", "totalCompanyType": "553" },
+        { "companyType": "Unicorns", "totalCompanyType": "95" },
+        { "companyType": "Internet", "totalCompanyType": "195" },
+        { "companyType": "B2C", "totalCompanyType": "2200" },
+        { "companyType": "Manufacturing", "totalCompanyType": "836" },
+        { "companyType": "Fortune 500", "totalCompanyType": "108" },
+        { "companyType": "Product", "totalCompanyType": "947" },
+        { "companyType": "Banking & Finance", "totalCompanyType": "347" },
+        { "companyType": "Hospitality", "totalCompanyType": "94" },
+        { "companyType": "Fintech", "totalCompanyType": "111" },
+        { "companyType": "FMCG & Retail", "totalCompanyType": "124" },
+        { "companyType": "Startups", "totalCompanyType": "410" }
+      ]
+      ,
+      "companies":[
+        {
+            "CompanyName": "Coursera",
+            "Domain": "EdTech",
+            "foundedYear": 2012
+        },
+        {
+            "CompanyName": "Zoom",
+            "Domain": "Video Conferencing (IT Service)",
+            "foundedYear": 2011
+        },
+        {
+            "CompanyName": "Airbnb",
+            "Domain": "Online Marketplace (Product-based)",
+            "foundedYear": 2008
+        },
+        {
+            "CompanyName": "SpaceX",
+            "Domain": "Aerospace (Product-based)",
+            "foundedYear": 2002
+        },
+        {
+            "CompanyName": "Slack",
+            "Domain": "Communication (IT Service)",
+            "foundedYear": 2009
+        },
+        {
+            "CompanyName": "Duolingo",
+            "Domain": "Language Learning (EdTech)",
+            "foundedYear": 2011
+        },
+        {
+            "CompanyName": "Shopify",
+            "Domain": "E-commerce (Product-based)",
+            "foundedYear": 2004
+        },
+        {
+            "CompanyName": "Impossible Foods",
+            "Domain": "Plant-Based Meat (Product-based)",
+            "foundedYear": 2009
+        },
+        {
+            "CompanyName": "GitHub",
+            "Domain": "Software Development (IT Service)",
+            "foundedYear": 2008
+        },
+        {
+            "CompanyName": "Canva",
+            "Domain": "Graphic Design (Product-based)",
+            "foundedYear": 2013
+        },
+        {
+            "CompanyName": "Stripe",
+            "Domain": "Payment Processing (IT Service)",
+            "foundedYear": 2010
+        },
+        {
+            "CompanyName": "Robinhood",
+            "Domain": "Stock Trading (FinTech - Product-based)",
+            "foundedYear": 2013
+        },
+        {
+            "CompanyName": "Beyond Meat",
+            "Domain": "Plant-Based Meat (Product-based)",
+            "foundedYear": 2009
+        },
+        {
+            "CompanyName": "Neuralink",
+            "Domain": "Neurotechnology (Startup)",
+            "foundedYear": 2016
+        },
+        {
+            "CompanyName": "Databricks",
+            "Domain": "Data Management (IT Service)",
+            "foundedYear": 2013
+        },
+        {
+            "CompanyName": "Buzzfeed",
+            "Domain": "Media (Startup)",
+            "foundedYear": 2006
+        },
+        {
+            "CompanyName": "Oculus VR",
+            "Domain": "Virtual Reality (Product-based)",
+            "foundedYear": 2012
+        },
+        {
+            "CompanyName": "Casper",
+            "Domain": "Sleep Products (Product-based)",
+            "foundedYear": 2014
+        }
+        
+    ]
+    ,"locations": [
+    { "locationName": "Delhi / NCR" },
+    { "locationName": "Bengaluru" },
+    { "locationName": "Mumbai (All Areas)" },
+    { "locationName": "Hyderabad" },
+    { "locationName": "Pune" },
+    { "locationName": "Chennai" },
+    { "locationName": "Mumbai" },
+    { "locationName": "New Delhi" }
+  ],
+  "departments": [
+    "Engineering - Software & QA",
+    "Sales & Business Development",
+    "Finance & Accounting",
+    "Customer Success, Service & Operations",
+    "Human Resources",
+    "Marketing & Communication",
+    "Data Science & Analytics",
+    "IT & Information Security"
+  ]
+}
